@@ -136,8 +136,6 @@ This will generate a lip-synced video in the `output/` folder.
 
 📌 The output file (`result_voice.mp4`) will be saved in the `output/` directory.
 
-<iframe src="https://drive.google.com/file/d/1kh5Xn6jUquemaVINVGciqMJP3xujJpVx/view?usp=drive_link" width="640" height="360" allow="autoplay"></iframe>
-
 ---
 
 ## 📌 **Example Output**
@@ -150,6 +148,7 @@ This will generate a lip-synced video in the `output/` folder.
 **Output:**
 
 - **Generated video (`result_voice.mp4`)** with synchronized lip movements matching the input audio.
+  [![Watch the video](https://drive.google.com/file/d/1kh5Xn6jUquemaVINVGciqMJP3xujJpVx/view?usp=sharing)]
 
 ---
 
