@@ -81,60 +81,9 @@ You can also run this project on Google Colab: [Colab Notebook](https://colab.re
 
 ### **Run via Jupyter Notebook**
 
-1. Open `Lip_Sync.ipynb` in Jupyter Notebook.
-
-### Step 1: Convert Text to Speech (TTS)
-
-Convert the input text into a `.wav` file using a TTS engine such as gTTS:
-
-```
-output = gTTS(text=script, lang=language, slow=False)
-output.save("/content/input.wav")
-os.system("start /content/input.wav")
-```
-
-### Step 2: Convert Screenshot to Video
-
-Generate a video from the input image:
-
-```sh
-import cv2
-
-
-image = cv2.imread("/content/Screenshot.png")
-
-
-fps = 30  # Frames per second
-
-video_duration = 30  # Video duration in seconds
-
-
-total_frames = int(fps * video_duration)
-
-video_writer = cv2.VideoWriter("input_video.mp4", cv2.VideoWriter_fourcc('m','p','e','g'), fps, (image.shape[1], image.shape[0]))
-
-
-for _ in range(total_frames):
-
-    video_writer.write(image)
-
-
-video_writer.release()
-
-print("Video created successfully!")
-```
-
-### Step 3: Run Lip-Syncing Process
-
-Run the Wav2Lip inference script to synchronize the image-based video with generated speech:
-
-```sh
-python Wav2Lip/inference.py --checkpoint_path Wav2Lip/checkpoints/wav2lip.pth --face input/input_video.mp4 --audio input/input.wav
-```
-
-This will generate a lip-synced video in the `output/` folder.
-
-📌 The output file (`result_voice.mp4`) will be saved in the `output/` directory.
+1. Open Lip_Sync.ipynb in Jupyter Notebook.
+2. Execute all cells step by step.
+3. The generated lip-synced video will be saved in the output/ folder.
 
 ---
 
