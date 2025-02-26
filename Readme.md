@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 The Wav2Lip model requires a pretrained checkpoint file. Download it from the following link:
 
-🔗 [Pretrained Model Download]([https://drive.google.com/file/d/1kh5Xn6jUquemaVINVGciqMJP3xujJpVx/view?usp=drive_link](https://drive.google.com/file/d/1xIMvN1w8bGUT7d9fdWwAJU4_cpGgHpu7/view?usp=drive_link))
+🔗 [Pretrained Model Download](https://drive.google.com/file/d/1xIMvN1w8bGUT7d9fdWwAJU4_cpGgHpu7/view?usp=drive_link)
 
 After downloading, place the `.pth` file inside the `checkpoints/` directory.
 
