@@ -148,7 +148,9 @@ This will generate a lip-synced video in the `output/` folder.
 **Output:**
 
 - **Generated video (`result_voice.mp4`)** with synchronized lip movements matching the input audio.
-  [![Watch the video](https://drive.google.com/file/d/1kh5Xn6jUquemaVINVGciqMJP3xujJpVx/view?usp=sharing)]
+
+  📹 **Watch the Video**
+[Download and Play](https://drive.google.com/file/d/1kh5Xn6jUquemaVINVGciqMJP3xujJpVx/view?usp=drive_link)
 
 ---
 
